@@ -1,6 +1,6 @@
 {
     "name": "kinedu/cfdi-catalogs",
-    "description": "",
+    "description": "Librería para descargar el catálogo del Servicio de Administración Tributaria (SAT)",
     "homepage": "https://github.com/Kinedu/cfdi-catalogs",
     "type": "library",
     "license": "MIT",
