@@ -1,0 +1,38 @@
+{
+    "name": "kinedu/cfdi-catalogs",
+    "description": "",
+    "homepage": "https://github.com/Kinedu/cfdi-catalogs",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "Kinedu",
+        "cfdi",
+        "sat"
+    ],
+    "authors": [
+        {
+            "name": "Orlando Charles",
+            "email": "orlando@kinedu.com",
+            "homepage": "https://orlandocharles.com/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kinedu\\CfdiCatalogs\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kinedu\\CfdiCatalogs\\Tests\\": "tests"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
